@@ -10,6 +10,7 @@ import Project from './components/sections/Project/Project';
 import './styles/globals.css';
 import certificatesData from './data/certificates.json';
 import Footer from './components/sections/Footer/Footer';
+import FadeInSection from './components/animations/FadeInSection';
 
 function App() {
   const [activeSection, setActiveSection] = useState<string>('home');
@@ -26,70 +27,82 @@ function App() {
   }, []);
 
   return (
-    <div className="app-container">
+    <div className="app-container" id='Home'>
       <Header />
       <Sidebar activeSection={activeSection} setActiveSection={setActiveSection} />
       <main className="main-content">
-        <Profile />
+        <FadeInSection>
+          <Profile />
+        </FadeInSection>
 
-        <div className="sections-container">
-          <About />
-        </div>
+        <FadeInSection>
+          <div className="sections-container">
+            <About />
+          </div>
+        </FadeInSection>
 
-        <div className="sections-container">
-          <Experience />
-          <Rules />
-        </div>
+        <FadeInSection>
+          <div className="sections-container" id='Contact'>
+            <Experience />
+            <Rules />
+          </div>
+        </FadeInSection>
 
-        <div className="sections-container">
-          <Project
-            title="PROJETO 1"
-            description="Este projeto é desenvolvido e profissional de perfil artístico, mostrando sua fina linha de design. O objetivo é fortificar a capacidade técnica de comunicação, expressar a ênfase sobre as habilidades especializadas e seus fundamentos, demonstrando sua versatilidade e forma uma imagem mais impressiva."
-            imageUrl="/caminho/para/sua/imagem.jpg"
-            onView={() => window.open('/project/1', '_blank')}
-          />
-        </div>
-          <Project
-            title="PROJETO 2"
-            description="Este projeto é desenvolvido e profissional de perfil artístico, mostrando sua fina linha de design. O objetivo é fortificar a capacidade técnica de comunicação, expressar a ênfase sobre as habilidades especializadas e seus fundamentos, demonstrando sua versatilidade e forma uma imagem mais impressiva."
-            imageUrl="/caminho/para/sua/imagem.jpg"
-            onView={() => window.open('/project/1', '_blank')}
-          />
+        <FadeInSection>
+          <div className="sections-container" id='Projects'>
+            <Project
+              title="PROJETO 1"
+              description="Este projeto é desenvolvido e profissional de perfil artístico..."
+              imageUrl="/caminho/para/sua/imagem.jpg"
+              onView={() => window.open('/project/1', '_blank')}
+            />
+          </div>
+        </FadeInSection>
 
-        <div className="sections-container">
-        </div>
+        <FadeInSection>
+          <div className="sections-container" id='Projects'>
+            <Project
+              title="PROJETO 2"
+              description="Este projeto é desenvolvido e profissional de perfil artístico..."
+              imageUrl="/caminho/para/sua/imagem.jpg"
+              onView={() => window.open('/project/1', '_blank')}
+            />
+          </div>
+        </FadeInSection>
 
-        <div className="sections-container">
-          <Project
-            title="PROJETO 3"
-            description="Este projeto é desenvolvido e profissional de perfil artístico, mostrando sua fina linha de design. O objetivo é fortificar a capacidade técnica de comunicação, expressar a ênfase sobre as habilidades especializadas e seus fundamentos, demonstrando sua versatilidade e forma uma imagem mais impressiva."
-            imageUrl="/caminho/para/sua/imagem.jpg"
-            onView={() => window.open('/project/1', '_blank')}
-          />
-        </div>
-
-        <div className="sections-container">
-          <div className="certificates-section">
-
-            <div className="certificates-grid">
-              {certificates.map(cert => (
-                <Certificate
-                  key={cert.id}
-                  title={cert.title}
-                  issuer={cert.issuer}
-                  date={cert.date}
-                  imageUrl={cert.imageUrl}
-                  onView={() => window.open(`/certificates/${cert.id}`, '_blank')}
-                />
-              ))}
+        <FadeInSection>
+          <div className="sections-container" id='Projects'>
+            <Project
+              title="PROJETO 3"
+              description="Este projeto é desenvolvido e profissional de perfil artístico..."
+              imageUrl="/caminho/para/sua/imagem.jpg"
+              onView={() => window.open('/project/1', '_blank')}
+            />
+          </div>
+        </FadeInSection>
+        
+        <FadeInSection>
+          <div className="sections-container" id='Certificates'>
+            <div className="certificates-section">
+              <div className="certificates-grid">
+                {certificates.map(cert => (
+                  <Certificate
+                    key={cert.id}
+                    title={cert.title}
+                    issuer={cert.issuer}
+                    date={cert.date}
+                    imageUrl={cert.imageUrl}
+                    onView={() => window.open(`/certificates/${cert.id}.png`, '_blank')}
+                  />
+                ))}
+              </div>
             </div>
           </div>
-        </div>
-
-        <div className='sections-container'>
-        </div>
+        </FadeInSection>
       </main>
-      <Footer />  
+      <footer className="footer" id='Testimonials'>
+        <Footer />
+      </footer>
     </div>
   );
 }

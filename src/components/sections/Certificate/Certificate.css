@@ -71,6 +71,10 @@
   }
   
   .certificate-card-button {
+    font-family: 'Minecraft', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #fff  ;
     color: #1f2937;
     border: 1px solid #e5e7eb;

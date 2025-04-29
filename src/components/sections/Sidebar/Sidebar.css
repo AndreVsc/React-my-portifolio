@@ -1,7 +1,7 @@
 .sidebar {
     position: fixed;
     left: 0;
-    top: 14.5rem;
+    top: 20rem;
     height: calc(100vh - 3.5rem);
     width: 4rem;
     display: flex;
@@ -17,8 +17,20 @@
     pointer-events: none;
 }
 
+.sidebar:hover,
 .sidebar.visible {
     opacity: 1;
     transform: translateX(0);
     pointer-events: all;
+}
+
+/* Área maior para detectar hover */
+.sidebar::before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 0;
+    width: calc(100% + 20px);
+    height: 100%;
+    z-index: -1;
 }

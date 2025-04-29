@@ -57,6 +57,11 @@
   }
   
   .project-card-button {
+    font-family: 'Minecraft', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
     background-color: #1f2937;
     color: white;
     border: none;

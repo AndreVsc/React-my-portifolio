@@ -1,60 +1,319 @@
 {
-    "certificates": [
-      {
-        "id": 1,
-        "title": "React: Desenvolvimento Front-end",
-        "issuer": "Coursera",
-        "date": "Out 2023",
-        "imageUrl": "/certificates/coursera-logo.png"
-      },
-      {
-        "id": 2,
-        "title": "JavaScript Avançado",
-        "issuer": "Udemy",
-        "date": "Ago 2023",
-        "imageUrl": "/certificates/udemy-logo.png"
-      },
-      {
-        "id": 3,
-        "title": "TypeScript para Desenvolvedores",
-        "issuer": "Alura",
-        "date": "Jun 2023",
-        "imageUrl": "/certificates/alura-logo.png"
-      },
-      {
-        "id": 4,
-        "title": "TypeScript para Desenvolvedores",
-        "issuer": "Alura",
-        "date": "Jun 2023",
-        "imageUrl": "/certificates/alura-logo.png"
-      },
-      {
-        "id": 5,
-        "title": "React: Desenvolvimento Front-end",
-        "issuer": "Coursera",
-        "date": "Out 2023",
-        "imageUrl": "/certificates/coursera-logo.png"
-      },
-      {
-        "id": 6,
-        "title": "JavaScript Avançado",
-        "issuer": "Udemy",
-        "date": "Ago 2023",
-        "imageUrl": "/certificates/udemy-logo.png"
-      },
-      {
-        "id": 7,
-        "title": "TypeScript para Desenvolvedores",
-        "issuer": "Alura",
-        "date": "Jun 2023",
-        "imageUrl": "/certificates/alura-logo.png"
-      },
-      {
-        "id": 8,
-        "title": "TypeScript para Desenvolvedores",
-        "issuer": "Alura",
-        "date": "Jun 2023",
-        "imageUrl": "/certificates/alura-logo.png"
-      }
-    ]
-  }
+  "certificates": [
+    {
+      "id": 1,
+      "title": "Introduction to Cybersecurity",
+      "issuer": "Cisco",
+      "date": "Mar 2025",
+      "imageUrl": "/certificates/1.png"
+    },
+    {
+      "id": 2,
+      "title": "PROGRAMAÇÃO DE ROBÔS COLABORATIVOS",
+      "issuer": "SENAI Extrema",
+      "date": "Dez 2024",
+      "imageUrl": "/certificates/2.png"
+    },
+    {
+      "id": 3,
+      "title": "Introdução à Programação",
+      "issuer": "EBAC",
+      "date": "Fev 2024",
+      "imageUrl": "/certificates/3.png"
+    },
+    {
+      "id": 4,
+      "title": "Inglês I",
+      "issuer": "IFRS",
+      "date": "Jul 2024",
+      "imageUrl": "/certificates/4.png"
+    },
+    {
+      "id": 5,
+      "title": "IT System Project",
+      "issuer": "Fundação Bradesco",
+      "date": "Jun 2023",
+      "imageUrl": "/certificates/5.png"
+    },
+    {
+      "id": 6,
+      "title": "Ethics in System Development",
+      "issuer": "Fundação Bradesco",
+      "date": "Jun 2022",
+      "imageUrl": "/certificates/6.png"
+    },
+    {
+      "id": 7,
+      "title": "Sistemas de Gerenciamento de Banco de Dados",
+      "issuer": "Dio",
+      "date": "Maç 2024",
+      "imageUrl": "/certificates/7.png"
+    },
+    {
+      "id": 8,
+      "title": "Arquitetura de Banco de Dados",
+      "issuer": "Dio",
+      "date": "Abr 2024",
+      "imageUrl": "/certificates/8.png"
+    },
+    {
+      "id": 9,
+      "title": "Modelo de Entidade Relacionamento com Banco de Dados",
+      "issuer": "Dio",
+      "date": "Abr 2024",
+      "imageUrl": "/certificates/9.png"
+    },
+    {
+      "id": 10,
+      "title": "Redes TCP/IP e a Internet",
+      "issuer": "Dio",
+      "date": "Mai 2024",
+      "imageUrl": "/certificates/10.png"
+    },
+    {
+      "id": 11,
+      "title": "Trabalhando Com Componentes no React Native",
+      "issuer": "Dio",
+      "date": "Jul 2024",
+      "imageUrl": "/certificates/11.png"
+    },
+    {
+      "id": 12,
+      "title": "Flexbox e Responsividade no React Native",
+      "issuer": "Dio",
+      "date": "Jul 2024",
+      "imageUrl": "/certificates/12.png"
+    },
+    {
+      "id": 13,
+      "title": "Gerenciando eventos no React Native",
+      "issuer": "Dio",
+      "date": "Jul 2024",
+      "imageUrl": "/certificates/13.png"
+    },
+    {
+      "id": 14,
+      "title": "Trabalhando com Navigation no React Native",
+      "issuer": "Dio",
+      "date": "Jul 2024",
+      "imageUrl": "/certificates/14.png"
+    },
+    {
+      "id": 15,
+      "title": "Trabalhando com Hooks no React Native",
+      "issuer": "Dio",
+      "date": "Jul 2024",
+      "imageUrl": "/certificates/15.png"
+    },
+    {
+      "id": 16,
+      "title": "Versionamento de Código com Git e GitHub",
+      "issuer": "Dio",
+      "date": "Jul 2024",
+      "imageUrl": "/certificates/16.png"
+    },
+    {
+      "id": 17,
+      "title": "Navegabilidade no React Native",
+      "issuer": "Dio",
+      "date": "Jul 2024",
+      "imageUrl": "/certificates/17.png"
+    },
+    {
+      "id": 18,
+      "title": "Casos de Usos com Hooks no React Native",
+      "issuer": "Dio",
+      "date": "Jul 2024",
+      "imageUrl": "/certificates/18.png"
+    },
+    {
+      "id": 19,
+      "title": "Câmera React Native - Capturas e Pemissções",
+      "issuer": "Dio",
+      "date": "Jul 2024",
+      "imageUrl": "/certificates/19.png"
+    },
+    {
+      "id": 20,
+      "title": "Formação React Native Developer",
+      "issuer": "Dio",
+      "date": "Jul 2024",
+      "imageUrl": "/certificates/20.png"
+    },
+    {
+      "id": 21,
+      "title": "Ambiente de Desenvolvimento Java",
+      "issuer": "Dio",
+      "date": "Jul 2024",
+      "imageUrl": "/certificates/21.png"
+    },
+    {
+      "id": 22,
+      "title": "Debugging Java",
+      "issuer": "Dio",
+      "date": "Ago 2024",
+      "imageUrl": "/certificates/22.png"
+    },
+    {
+      "id": 23,
+      "title": "Java e Tratamento de Exceções",
+      "issuer": "Dio",
+      "date": "Ago 2024",
+      "imageUrl": "/certificates/23.png"
+    },
+    {
+      "id": 24,
+      "title": "Programação Orientada a Objetos com Java",
+      "issuer": "Dio",
+      "date": "Ago 2024",
+      "imageUrl": "/certificates/24.png"
+    },
+    {
+      "id": 25,
+      "title": "Introdução a Testes de Software",
+      "issuer": "Dio",
+      "date": "Ago 2024",
+      "imageUrl": "/certificates/25.png"
+    },
+    {
+      "id": 26,
+      "title": "Testes Unitários Com JUnit",
+      "issuer": "Dio",
+      "date": "Ago 2024",
+      "imageUrl": "/certificates/26.png"
+    },
+    {
+      "id": 27,
+      "title": "Banco de Dados SQL e NoSQL Para Desenvolvedores Back-end",
+      "issuer": "Dio",
+      "date": "Ago 2024",
+      "imageUrl": "/certificates/27.png"
+    },
+    {
+      "id": 28,
+      "title": "Explorando Arquiteturas Java de Alta Escalabilidade",
+      "issuer": "Dio",
+      "date": "Out 2024",
+      "imageUrl": "/certificates/28.png"
+    },
+    {
+      "id": 29,
+      "title": "Introdução ao Desenvolvimento Moderno de Software",
+      "issuer": "Dio",
+      "date": "Set 2024",
+      "imageUrl": "/certificates/29.png"
+    },
+    {
+      "id": 30,
+      "title": "Java com Spring Boot",
+      "issuer": "Claro",
+      "date": "Set 2024",
+      "imageUrl": "/certificates/30.png"
+    },
+    {
+      "id": 31,
+      "title": "Princípios de Agilidade e Desenvolvimento Colaborativo",
+      "issuer": "Dio",
+      "date": "Set 2024",
+      "imageUrl": "/certificates/31.png"
+    },
+    {
+      "id": 32,
+      "title": "Introdução a Arquitetura Hexagonal com Spring Boot e Kotlin",
+      "issuer": "Dio",
+      "date": "Set 2024",
+      "imageUrl": "/certificates/32.png"
+    },
+    {
+      "id": 33,
+      "title": "Computação em AWS",
+      "issuer": "Dio",
+      "date": "Out 2024",
+      "imageUrl": "/certificates/33.png"
+    },
+    {
+      "id": 34,
+      "title": "Armazenamento e Banco de Dados AWS",
+      "issuer": "Dio",
+      "date": "Out 2024",
+      "imageUrl": "/certificates/34.png"
+    },
+    {
+      "id": 35,
+      "title": "AWS Cloud Computing para Soluções Java",
+      "issuer": "Dio",
+      "date": "Out 2024",
+      "imageUrl": "/certificates/35.png"
+    },
+    {
+      "id": 36,
+      "title": "Arquitetura com Spring Boot e Cloud",
+      "issuer": "Cognizant",
+      "date": "Out 2024",
+      "imageUrl": "/certificates/36.png"
+    },
+    {
+      "id": 37,
+      "title": "Princípios de Desenvolvimento de Software Colaborativo",
+      "issuer": "Dio",
+      "date": "Out 2024",
+      "imageUrl": "/certificates/37.png"
+    },
+    {
+      "id": 38,
+      "title": "Entendendo Algoritimos e Fluxogramas",
+      "issuer": "Dio",
+      "date": "Out 2024",
+      "imageUrl": "/certificates/38.png"
+    },
+    {
+      "id": 39,
+      "title": "Estrutura de Dados JSON",
+      "issuer": "Dio",
+      "date": "Out 2024",
+      "imageUrl": "/certificates/39.png"
+    },
+    {
+      "id": 40,
+      "title": "Formação Github Certification",
+      "issuer": "Dio",
+      "date": "Out 2024",
+      "imageUrl": "/certificates/40.png"
+    },
+    {
+      "id": 41,
+      "title": "Administração do Github",
+      "issuer": "Dio",
+      "date": "Out 2024",
+      "imageUrl": "/certificates/41.png"
+    },
+    {
+      "id": 42,
+      "title": "Autenticações",
+      "issuer": "Dio",
+      "date": "Out 2024",
+      "imageUrl": "/certificates/42.png"
+    },
+    {
+      "id": 43,
+      "title": "Fundamentos de Desenvolvimento de Software com PHP",
+      "issuer": "Dio",
+      "date": "Mar 2025",
+      "imageUrl": "/certificates/43.png"
+    },
+    {
+      "id": 44,
+      "title": "Gerenciamento de Pacotes em PHP com Composer",
+      "issuer": "Dio",
+      "date": "Mar 2025",
+      "imageUrl": "/certificates/44.png"
+    },
+    {
+      "id": 45,
+      "title": "Tratamento de Exceções e Programação Orientada a Objetos em PHP",
+      "issuer": "Dio",
+      "date": "Mar 2025",
+      "imageUrl": "/certificates/45.png"
+    }
+  ]
+}

@@ -18,7 +18,6 @@ const Certificate: React.FC<CertificateProps> = ({
 }) => {
   return (
     <div className="certificate-card">
-      {/* Left side with small image or icon */}
       <div className="certificate-card-image">
         {imageUrl ? (
           <img src={imageUrl} alt={title} />

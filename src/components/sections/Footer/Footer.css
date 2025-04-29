@@ -2,14 +2,14 @@
 .footer {
     background-color: #1f2937;
     color: #f9fafb;
-    padding: 3rem 0 0.5rem;
+    padding: 2rem 0 0.5rem;
     width: 100%;
   }
   
   .footer-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 1.5rem;
+    padding: 0 0.5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -18,8 +18,8 @@
   .footer-section {
     flex: 1;
     min-width: 250px;
-    margin-bottom: 2rem;
-    padding-right: 2rem;
+    margin-bottom: 0.825rem;
+    padding-right: 0.825rem;
   }
   
   .footer-title {
