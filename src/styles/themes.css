@@ -1,0 +1,18 @@
+/* styles/themes.css */
+/* Light theme (default) */
+:root {
+    --color-bg: #f0f2f5;
+    --color-card: #ffffff;
+    --color-text: #333333;
+    --color-accent: #3E3E3E;
+    --color-tag-bg: #e4e6eb;
+  }
+  
+  /* Dark theme - can be activated with a class on body or an attribute */
+  [data-theme="dark"] {
+    --color-bg: #121212;
+    --color-card: #1e1e2e;
+    --color-text: #e4e6eb;
+    --color-accent: #c9c9c9;
+    --color-tag-bg: #3a3a3a;
+  }

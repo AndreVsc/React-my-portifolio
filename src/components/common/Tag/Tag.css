@@ -1,0 +1,17 @@
+.tag {
+    display: inline-block;
+    padding: var(--spacing-xs) var(--spacing-md);
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    border: none;
+  }
+  
+  .tag--default {
+    background-color: var(--color-tag-bg);
+    color: var(--color-accent);
+  }
+  
+  .tag--dark {
+    background-color: var(--color-accent);
+    color: white;
+  }

@@ -1,0 +1,60 @@
+{
+    "certificates": [
+      {
+        "id": 1,
+        "title": "React: Desenvolvimento Front-end",
+        "issuer": "Coursera",
+        "date": "Out 2023",
+        "imageUrl": "/certificates/coursera-logo.png"
+      },
+      {
+        "id": 2,
+        "title": "JavaScript Avançado",
+        "issuer": "Udemy",
+        "date": "Ago 2023",
+        "imageUrl": "/certificates/udemy-logo.png"
+      },
+      {
+        "id": 3,
+        "title": "TypeScript para Desenvolvedores",
+        "issuer": "Alura",
+        "date": "Jun 2023",
+        "imageUrl": "/certificates/alura-logo.png"
+      },
+      {
+        "id": 4,
+        "title": "TypeScript para Desenvolvedores",
+        "issuer": "Alura",
+        "date": "Jun 2023",
+        "imageUrl": "/certificates/alura-logo.png"
+      },
+      {
+        "id": 5,
+        "title": "React: Desenvolvimento Front-end",
+        "issuer": "Coursera",
+        "date": "Out 2023",
+        "imageUrl": "/certificates/coursera-logo.png"
+      },
+      {
+        "id": 6,
+        "title": "JavaScript Avançado",
+        "issuer": "Udemy",
+        "date": "Ago 2023",
+        "imageUrl": "/certificates/udemy-logo.png"
+      },
+      {
+        "id": 7,
+        "title": "TypeScript para Desenvolvedores",
+        "issuer": "Alura",
+        "date": "Jun 2023",
+        "imageUrl": "/certificates/alura-logo.png"
+      },
+      {
+        "id": 8,
+        "title": "TypeScript para Desenvolvedores",
+        "issuer": "Alura",
+        "date": "Jun 2023",
+        "imageUrl": "/certificates/alura-logo.png"
+      }
+    ]
+  }

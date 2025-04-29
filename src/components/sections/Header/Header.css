@@ -1,0 +1,78 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #030514, #0c1524e3);
+  border-radius: 0 0 24px 24px;
+  overflow: hidden;
+  padding: 0.5rem 0.5rem 1rem 0.5rem;
+  gap: 0;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  color: rgb(255, 255, 255);
+  height: 3rem;
+}
+
+.logo {
+  font-family: var(--font-primary);
+  font-size: 1.15rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.logo:hover {
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.5),
+    0 0 15px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.5),
+    0 0 25px rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+
+.language-selector {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  font-size: 0.775rem;
+  color: rgb(255, 255, 255);
+}
+
+.header-main {
+  padding: 1rem 0.5rem;
+  color: rgb(255, 255, 255);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title-header {
+  font-family: "Minecraft", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+
+.profile-bio {
+  max-width: 800px;
+  font-size: 0.9rem;
+  line-height: 1;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+  
+  .profile-bio {
+    font-size: 0.875rem;
+  }
+}

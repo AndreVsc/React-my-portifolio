@@ -1,0 +1,43 @@
+/* styles/variables.css */
+:root {
+    --font-primary: 'Lalezar', cursive;
+    --font-secondary: 'Minecraft', sans-serif;
+    
+    /* Colors */
+    --color-bg: #f0f2f5;
+    --color-card: #ffffff;
+    --color-text: #333333;
+    --color-accent: #3E3E3E;
+    --color-tag-bg: #e4e6eb;
+    
+    /* Dark backgrounds */
+    --color-dark-bg: #1e1e2e;
+    --color-darker-bg: hsl(240, 21%, 15%);
+    --color-header-gradient-start: #030514;
+    --color-header-gradient-end: #0c1524e3;
+    
+    /* Text colors */
+    --color-light-text: white;
+    --color-light-text-95: hsl(0, 0%, 95%);
+    --color-light-text-90: hsl(0, 0%, 90%);
+    --color-light-text-85: hsl(0, 0%, 85%);
+    
+    /* Spacing */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 0.75rem;
+    --spacing-base: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    
+    /* Border radius */
+    --radius-sm: 0.25rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 0.75rem;
+    --radius-xl: 1rem;
+    
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.15);
+    --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.1);
+  }

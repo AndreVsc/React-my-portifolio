@@ -1,0 +1,99 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1200px;
+    margin-top: 0.5rem;
+  }
+  
+  .profile-header {
+    margin-bottom: var(--spacing-lg);
+  }
+  
+  .player-section {
+    display: flex;
+    padding-left: 4rem;
+    align-items: center;
+    gap: 3.5rem;
+  }
+  
+  .player-section h3 {
+    font-size: 1rem;
+    margin: 0;
+    min-width: 80px;
+  }
+  
+  .level-section {
+    flex-grow: 1;
+  }
+  
+  .level-section p {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.9rem;
+  }
+  
+  .progress-bar {
+    height: 0.5rem;
+    background-color: var(--color-tag-bg);
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+  }
+  
+  .progress-indicator {
+    height: 100%;
+    background-color: var(--color-header-gradient-end);
+    border-radius: var(--radius-sm);
+  }
+  
+  .profile-content {
+    display: flex;
+    gap: 5rem;
+  }
+  
+  .avatar-container {
+    flex-shrink: 0;
+    width: 120px;
+  }
+  
+  .avatar {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-left: var(--spacing-base);
+  }
+  
+  .skills-container {
+    flex: 1;
+  }
+  
+  .skill-group {
+    margin-bottom: var(--spacing-lg);
+  }
+  
+  .skill-group h3 {
+    font-size: 0.9rem;
+    margin: 0 0 0.5rem 0;
+    font-weight: 500;
+  }
+  
+  .skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm);
+  }
+  
+  .skills-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 768px) {
+    .profile-content {
+      flex-direction: column;
+      gap: var(--spacing-lg);
+    }
+    
+    .skills-row {
+      flex-direction: column;
+    }
+  }
