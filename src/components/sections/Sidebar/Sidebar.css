@@ -1,7 +1,7 @@
 .sidebar {
     position: fixed;
     left: 0;
-    top: 20rem;
+    top: 16rem;
     height: calc(100vh - 3.5rem);
     width: 4rem;
     display: flex;
@@ -33,4 +33,10 @@
     width: calc(100% + 20px);
     height: 100%;
     z-index: -1;
+}
+
+@media(max-width: 768px) {
+    .sidebar {
+        top: 23rem;
+    }
 }

@@ -1,6 +1,7 @@
 .profile {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     max-width: 1200px;
     margin-top: 0.5rem;
@@ -18,8 +19,8 @@
   }
   
   .player-section h3 {
-    font-size: 1rem;
-    margin: 0;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
     min-width: 80px;
   }
   
@@ -32,19 +33,6 @@
     font-size: 0.9rem;
   }
   
-  .progress-bar {
-    height: 0.5rem;
-    background-color: var(--color-tag-bg);
-    border-radius: var(--radius-sm);
-    overflow: hidden;
-  }
-  
-  .progress-indicator {
-    height: 100%;
-    background-color: var(--color-header-gradient-end);
-    border-radius: var(--radius-sm);
-  }
-  
   .profile-content {
     display: flex;
     gap: 5rem;
@@ -52,7 +40,7 @@
   
   .avatar-container {
     flex-shrink: 0;
-    width: 120px;
+    width: 110px;
   }
   
   .avatar {
@@ -89,6 +77,7 @@
   
   @media (max-width: 768px) {
     .profile-content {
+      align-items: center;
       flex-direction: column;
       gap: var(--spacing-lg);
     }
