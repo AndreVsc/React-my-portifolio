@@ -15,16 +15,18 @@
   padding: 0;
   margin: 0;
 }
-  
-  html, body, #root {
-    height: 100vh;
-    width: 100%;
+
+html, body, #root {
+  height: 100vh;
+  width: 100%;
 }
 
 body {
-  font-family: var(--font-secondary);
+  font-family: var(--font-default);
   background-color: var(--color-bg);
   color: var(--color-text);
+  font-size: var(--font-size-base);
+  line-height: 1.5;
 }
 
 .app-container {
@@ -35,8 +37,7 @@ body {
 
 .main-content {
   flex: 1;
-  padding: 1rem;
-  padding-left: 1rem;
+  padding: var(--spacing-base);
   max-width: 1200px;
   margin: 0 auto;
   width: 100%;
@@ -44,46 +45,89 @@ body {
 
 .sections-container {
   display: flex;
-  gap: 1.5rem;
-  margin-top: 1.5rem;
+  gap: var(--spacing-lg);
+  margin-top: var(--spacing-lg);
 }
 
 /* CertificatesSection.css */
 .certificates-section {
   width: 100%;
-  margin-bottom: 2rem;
+  margin-bottom: var(--spacing-xl);
+  padding: 0 var(--spacing-base);
 }
 
 .certificates-section-title {
-  font-size: 1.25rem;
+  font-size: var(--font-size-2xl);
   font-weight: 700;
-  margin-bottom: 1rem;
-  color: #111827;
+  margin-bottom: var(--spacing-lg);
 }
 
 .certificates-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--spacing-base);
+  width: 100%;
+  padding: var(--spacing-xs);
 }
 
+/* Responsividade */
 @media (max-width: 768px) {
   .sections-container {
     flex-direction: column;
   }
   
   .main-content {
-    padding-left: 1rem;
+    padding: var(--spacing-base);
+  }
+  
+  body {
+    font-size: var(--font-size-sm);
   }
 }
 
-
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   .certificates-grid {
     grid-template-columns: 1fr;
+    gap: var(--spacing-base);
+  }
+  
+  .sections-container {
+    gap: var(--spacing-base);
+  }
+  
+  .main-content {
+    padding: var(--spacing-sm);
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .certificates-grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--spacing-base);
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 0.85rem;
+  }
+  h1, .title-header {
+    font-size: 1.2rem !important;
+  }
+  h2, .certificates-section-title, .aboutSection__title, .rulesSection-title {
+    font-size: 1rem !important;
+  }
+  h3, .certificate-card-title, .project-card-title {
+    font-size: 0.95rem !important;
+  }
+  .certificate-card-details, .project-card-description, .aboutSection__text, .rulesSection-text, .rulesSection-listItem {
+    font-size: 0.75rem !important;
+  }
+  .certificate-card-button, .project-card-button {
+    font-size: 0.8rem !important;
   }
 }
 
 html {
-  scroll-behavior: auto;
+  scroll-behavior: smooth;
 }
